@@ -86,7 +86,7 @@
   (asdf:operate 'asdf:load-op :cldoc)
   (cldoc:extract-documentation 'cldoc:html
     (namestring
-      (merge-pathnames #P"doc/"
+      (merge-pathnames (translate-logical-pathname #P";doc;")
         (directory-namestring
           (truename
             (asdf:system-definition-pathname (asdf:find-system :yow))))))
