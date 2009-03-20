@@ -21,7 +21,8 @@
   (declaim (optimize (debug 3))))
 
 (defpackage :yow-asd
-  (:use :cl :asdf))
+  (:use :cl :asdf)
+  (:export #:doc-op))
 
 (in-package :yow-asd)
 
@@ -67,6 +68,22 @@
   "Perform unit test suite on yow system"
   (asdf:operate 'asdf:load-op :yow)
   (funcall (intern (string :run-tests) (string :lift)) :yow))
+
+(defclass doc-op (asdf:operation) ())
+
+(defmethod perform ((op doc-op)
+                    (system (eql (find-system :yow))))
+  "Generate automated documentation for yow system"
+  (asdf:operate 'asdf:load-op :yow)
+  (asdf:operate 'asdf:load-op :cldoc)
+  (cldoc:extract-documentation 'cldoc:html
+    (namestring
+      (merge-pathnames #P"doc/"
+        (directory-namestring
+          (truename
+            (asdf:system-definition-pathname (asdf:find-system :yow))))))
+    (asdf:find-system :yow)))
+
 
 (defmethod operation-done-p
   ((op asdf:test-op) (system (eql (find-system :ebugs))))
