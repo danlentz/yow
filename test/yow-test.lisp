@@ -6,7 +6,7 @@
 ;;;;; Copyright 2009 Dan Lentz, Lentz Intergalactic Softworks
 ;;;;; Yow!  Legally-imposed CULTURE-reduction is CABBAGE-BRAINED!
 ;;;;;
-;;;;; Updated:Dan Lentz 2009-Mar-20 16:46:28 EDT
+;;;;; Updated:Dan Lentz 2009-Mar-20 17:24:05 EDT
 ;;;;; Created: Dan Lentz <dan@lentz.com> 2009-03-20
 ;;;;; 
 ;;;;; Keywords: lisp common-lisp i386-apple-darwin9.6.0
@@ -27,7 +27,8 @@
                                                (asdf:find-system :yow))))))
   )
 
-
+;; (defparameter *D* (make-instance 'textfile-db :name :lastnames
+;; 			 :path #P"last-names.txt"))
 
 ;;;;;
 ;; Local Variables:
