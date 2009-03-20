@@ -63,11 +63,19 @@
   (provide 'yow)
   (pushnew :yow *FEATURES*))
 
+;;; Unit Tests
+
 (defmethod perform ((op asdf:test-op)
                     (system (eql (find-system :yow))))
   "Perform unit test suite on yow system"
   (asdf:operate 'asdf:load-op :yow)
   (funcall (intern (string :run-tests) (string :lift)) :yow))
+
+(defmethod operation-done-p
+  ((op asdf:test-op) (system (eql (find-system :yow))))
+  nil)
+
+;;; Documentation 
 
 (defclass doc-op (asdf:operation) ())
 
@@ -84,10 +92,10 @@
             (asdf:system-definition-pathname (asdf:find-system :yow))))))
     (asdf:find-system :yow)))
 
-
 (defmethod operation-done-p
-  ((op asdf:test-op) (system (eql (find-system :ebugs))))
+  ((op doc-op) (system (eql (find-system :yow))))
   nil)
+
 
 
 ;; Local Variables:
