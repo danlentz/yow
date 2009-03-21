@@ -20,11 +20,11 @@
 (eval-when (:compile-toplevel :load-toplevel :execute)
   (declaim (optimize (debug 3))))
 
-(defpackage :yow-asd
+(defpackage :yow.system
   (:use :cl :asdf)
-  (:export #:doc-op))
+  (:export #:doc-op #:yow-relative-pathname))
 
-(in-package :yow-asd)
+(in-package :yow.system)
 
 ;;;;;
 ;;;;; System Definitions
@@ -58,6 +58,13 @@
 ;;;;; Localized Operation Methods
 ;;;;;
 
+(defmacro yow-relative-pathname (p)
+
+  `(merge-pathnames (translate-logical-pathname (pathname ,p))
+     (directory-namestring
+       (truename
+         (asdf:system-definition-pathname (asdf:find-system :yow))))))
+    
 (defmethod perform :after ((o asdf:load-op) (c (eql (find-system :yow))))
   "register provided functionality :after a successful load of this system"
   (provide 'yow)
@@ -81,16 +88,36 @@
 
 (defmethod perform ((op doc-op)
                     (system (eql (find-system :yow))))
-  "Generate automated documentation for yow system"
+  "Generate automated documentation for yow system.
+
+Lazily loads yow system and CLDOC framework as needed."
   (asdf:operate 'asdf:load-op :yow)
   (asdf:operate 'asdf:load-op :cldoc)
+
+  (defun cldoc::make-footer ()
+    "Appends locally specified footer to cldoc:html driven output"
+    (cldoc::with-tag (:div (:class "cludg-footer"))
+      (cldoc::html-write "Generated with ~A - ~A "
+        (lisp-implementation-type)
+        (cldoc::get-iso-date-time))))
+  
   (cldoc:extract-documentation 'cldoc:html
+    (namestring (yow-relative-pathname #P";doc;html;"))
+    (asdf:find-system :yow))
+
+    (cldoc:extract-documentation 'cldoc:text
+    (namestring (yow-relative-pathname #P";doc;text;"))
+    (asdf:find-system :yow))
+
+  (cldoc:extract-documentation 'cldoc:text
     (namestring
-      (merge-pathnames (translate-logical-pathname #P";doc;")
+      (merge-pathnames (translate-logical-pathname #P";doc;text;")
         (directory-namestring
           (truename
             (asdf:system-definition-pathname (asdf:find-system :yow))))))
-    (asdf:find-system :yow)))
+    (asdf:find-system :yow))
+
+  )
 
 (defmethod operation-done-p
   ((op doc-op) (system (eql (find-system :yow))))
