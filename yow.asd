@@ -94,6 +94,12 @@ Lazily loads yow system and CLDOC framework as needed."
   (asdf:operate 'asdf:load-op :yow)
   (asdf:operate 'asdf:load-op :cldoc)
 
+  (ignore-errors 
+    (defconstant cldoc::+DEFAULT-SECTION-NAMES+
+      (list "Overview:" "See Also:" "Examples:" "Notes:" "History:"
+        "Status:" "Affected By:" "Side Effects:" "Arguments and Values:"
+        "Exceptional Situations:" "Requirements:" "Specification:")))
+  
   (defun cldoc::make-footer ()
     "Appends locally specified footer to cldoc:html driven output"
     (cldoc::with-tag (:div (:class "cludg-footer"))
@@ -107,14 +113,6 @@ Lazily loads yow system and CLDOC framework as needed."
 
     (cldoc:extract-documentation 'cldoc:text
     (namestring (yow-relative-pathname #P";doc;text;"))
-    (asdf:find-system :yow))
-
-  (cldoc:extract-documentation 'cldoc:text
-    (namestring
-      (merge-pathnames (translate-logical-pathname #P";doc;text;")
-        (directory-namestring
-          (truename
-            (asdf:system-definition-pathname (asdf:find-system :yow))))))
     (asdf:find-system :yow))
 
   )
