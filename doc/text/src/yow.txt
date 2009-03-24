@@ -1,0 +1,20 @@
+
+;;; *all-yow-dbs*                                                     [defvar]
+;;; yow-db                                                          [defclass]
+;;;
+;;;   protocol class
+
+
+;;; textfile-db                                                     [defclass]
+;;;
+;;;   newline delimited, one line per cookie, Hash (#) comments
+
+
+;;; populate                                                      [defgeneric]
+;;;     db name &key &allow-other-keys
+;;; populate                                                       [defmethod]
+;;;     (db yow-db) name &key &allow-other-keys
+;;; populate                                                       [defmethod]
+;;;     (db textfile-db) name &key (path (make-pathname name fortunes type txt))
+;;; initialize-instance                                            [defmethod]
+;;;     (db textfile-db) &rest initargs &key &allow-other-keys
