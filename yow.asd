@@ -59,7 +59,7 @@
 ;;;;;
 
 (defmacro yow-relative-pathname (p)
-
+ "pathname relative to yow installation"
   `(merge-pathnames (translate-logical-pathname (pathname ,p))
      (directory-namestring
        (truename
@@ -109,7 +109,7 @@ Lazily loads yow system and CLDOC framework as needed."
   
   (cldoc:extract-documentation 'cldoc:html
     (namestring (yow-relative-pathname #P";doc;html;"))
-    (asdf:find-system :yow))
+    (asdf:find-system :yow) :table-of-contents-title "Yow! for Common-Lisp")
 
     (cldoc:extract-documentation 'cldoc:text
     (namestring (yow-relative-pathname #P";doc;text;"))
