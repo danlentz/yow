@@ -1,0 +1,80 @@
+commit 630a543568d376cbe063530148ba832e57898115
+Author: Dan Lentz <danlentz@gmail.com>
+Date:   Tue Mar 24 18:06:59 2009 -0400
+
+    docstring added for yow-relative-pathname; table-of-contents-title specified for html documentation output
+
+commit 5206534613263fce68235f93e8b1d991fda80c30
+Author: Dan Lentz <danlentz@gmail.com>
+Date:   Tue Mar 24 18:05:48 2009 -0400
+
+    generated text documentation output files added
+
+commit d4ed11f4b475e7371b089e21925f9e21c7fec620
+Author: Dan Lentz <danlentz@gmail.com>
+Date:   Tue Mar 24 18:05:31 2009 -0400
+
+    generated html documentation output files added
+
+commit 0988975d36404b484a0ab67f66de097ec17439c3
+Author: Dan Lentz <danlentz@gmail.com>
+Date:   Tue Mar 24 18:04:45 2009 -0400
+
+    fortune databases from FreeBSD ports collection added to supplied datafiles
+
+commit 7e0332173fcd455b1305842d79c2d4ec0843cf8a
+Author: Dan Lentz <danlentz@gmail.com>
+Date:   Sat Mar 21 17:20:00 2009 -0400
+
+    inclusion of additional datafiles in .lines format (null terminated entries)
+
+commit 1055497fb180f2744bb1eec29fd8bc4113377404
+Author: Dan Lentz <danlentz@gmail.com>
+Date:   Sat Mar 21 16:09:16 2009 -0400
+
+    customization of cldoc footer; customization of cldoc section names;
+    implemented macro yow-relative-pathname; inclusion of text-format documentation
+    output driver
+
+commit 9c534f6176483d51fb7c36416495ef4d7a0fdfe5
+Author: Dan Lentz <danlentz@gmail.com>
+Date:   Sat Mar 21 15:48:06 2009 -0400
+
+    Modified        : src/packages.lisp
+    
+    Initial documentation added
+    
+    Modified        : yow.asd
+    
+    Enhanced documentation op
+
+commit 5ed0d93fc5545e1965d7998665b069360c7a88fe
+Author: Dan Lentz <danlentz@gmail.com>
+Date:   Fri Mar 20 18:17:06 2009 -0400
+
+    implemented logical pathname relative directory for documentation target
+
+commit 861e983df6c774dd3d32ecc01378912299a044e8
+Author: Dan Lentz <danlentz@gmail.com>
+Date:   Fri Mar 20 18:10:08 2009 -0400
+
+    implemented #'asdf:operation-done-p for operation class 'doc-op
+
+commit b4057e396b7c0238cea54bf011808572bc51e2c8
+Author: Dan Lentz <danlentz@gmail.com>
+Date:   Fri Mar 20 18:02:42 2009 -0400
+
+    defined 'doc-op class;  implemented asdf:perform on doc-op class to
+    emit cldoc documentation for yow system
+
+commit 8d4b938637e539fb9be1a0fff4f6cd338f81ef44
+Author: Dan Lentz <danlentz@gmail.com>
+Date:   Fri Mar 20 17:26:52 2009 -0400
+
+    annotated example populate call
+
+commit 8b8c52f6967b00b52ffd2c6d065fb179bcdc9fef
+Author: Dan Lentz <danlentz@gmail.com>
+Date:   Fri Mar 20 17:18:54 2009 -0400
+
+    initial commit
