@@ -76,7 +76,18 @@
                     (system (eql (find-system :yow))))
   "Perform unit test suite on yow system"
   (asdf:operate 'asdf:load-op :yow)
-  (funcall (intern (string :run-tests) (string :lift)) :yow))
+  (funcall (intern (string :run-tests) (string :lift))) ;; :yow)
+  (lift:handle-config-preference :report-property
+    '(:title "Yow! Unit Testing Report"))
+  (lift:handle-config-preference :report-property '(:relative-to "yow"))
+  (lift:handle-config-preference :report-property '(:unique-name nil))
+  (lift:handle-config-preference :report-property '(:style-sheet "style.css"))
+  (lift:handle-config-preference :report-property '(:if-exists :supersede))
+  (lift:handle-config-preference :report-property '(:format :html))
+  (lift:handle-config-preference :report-property '(:name "test-report"))
+  (lift:handle-config-preference :build-report ())
+
+  )
 
 (defmethod operation-done-p
   ((op asdf:test-op) (system (eql (find-system :yow))))
@@ -94,11 +105,13 @@ Lazily loads yow system and CLDOC framework as needed."
   (asdf:operate 'asdf:load-op :yow)
   (asdf:operate 'asdf:load-op :cldoc)
 
-  (ignore-errors 
-    (defconstant cldoc::+DEFAULT-SECTION-NAMES+
+  (ignore-errors
+    (makunbound 'cldoc:+DEFAULT-SECTION-NAMES+))
+  
+  (defconstant cldoc::+DEFAULT-SECTION-NAMES+
       (list "Overview:" "See Also:" "Examples:" "Notes:" "History:"
         "Status:" "Affected By:" "Side Effects:" "Arguments and Values:"
-        "Exceptional Situations:" "Requirements:" "Specification:")))
+        "Exceptional Situations:" "Requirements:" "Specification:"))
   
   (defun cldoc::make-footer ()
     "Appends locally specified footer to cldoc:html driven output"
