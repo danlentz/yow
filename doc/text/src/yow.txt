@@ -1,20 +1,62 @@
 
 ;;; *all-yow-dbs*                                                     [defvar]
+;;;
+;;
+;;;   dynamic special variable that maps keyword names to references of loaded yow-db instances
+
+
+;;; *default-db-files*                                                [defvar]
+;;;
+;;
+;;;   Association-lisp ist of automatically populated textfile-db format data sources.
+;;;   
+;;;   Each member pair is expected to conform to (STRING . CHAR) where STRING represents the
+;;;   pathabane (sans TYPE) of an existing, legal database file found in the yow installation's
+;;;   'data' directory, and where CHAR denotes the record-separator used for that file.
+;;;   
+;;;   N.B.  This distribution contains an assortment of well-known, public, open-source, database
+;;;   files, some of which may contain material offensive to some and/or not=suitable for children.
+;;;   Therefore, on initial load of this library, NO databases are loaded.  If desired, please customize this ALIST to remove any unwanted datafiles.  By convention, all questionable content is linited to files named using a filename-o.txt convention --- e.g., fortunes-o.txt.
+;;;   ;   * See Also:  {defun load-default-dbs};   
+
+
 ;;; yow-db                                                          [defclass]
 ;;;
-;;;   protocol class
+;;;   Base protocol class for yow data sources.;   
+;;;   This abstract class is not meant to be instantiated directly.
 
 
 ;;; textfile-db                                                     [defclass]
 ;;;
-;;;   newline delimited, one line per cookie, Hash (#) comments
+;;;   simple textfile based data source.;   
+;;;   This format is newline delimited, one line per cookie, using hash (#)
+;;;   comments when found as the first character on a logical line.
 
 
+;;; slurp-stream                                                       [defun]
+;;;     stream
+;;; slurp-file                                                         [defun]
+;;;     filename
 ;;; populate                                                      [defgeneric]
 ;;;     db name &key &allow-other-keys
-;;; populate                                                       [defmethod]
-;;;     (db yow-db) name &key &allow-other-keys
 ;;; populate                                                       [defmethod]
 ;;;     (db textfile-db) name &key (path (make-pathname name fortunes type txt))
 ;;; initialize-instance                                            [defmethod]
 ;;;     (db textfile-db) &rest initargs &key &allow-other-keys
+;;; load-default-dbs                                                   [defun]
+;;; yow                                                                [defun]
+;;;     &optional (dbname yow)
+;;; fortune                                                            [defun]
+;;;     &key (offensive-p nil)
+;;; limerick                                                           [defun]
+;;; murphys-law                                                        [defun]
+;;;     &key (offensive-p nil)
+;;; trek                                                               [defun]
+;;; spook                                                              [defun]
+;;; zippy                                                              [defun]
+;;; male-name                                                          [defun]
+;;; female-name                                                        [defun]
+;;; last-name                                                          [defun]
+;;; full-male-name                                                     [defun]
+;;; full-female-name                                                   [defun]
+;;; full-name                                                          [defun]

@@ -1,2 +1,41 @@
 
 ;;; YOW                                                           [defpackage]
+;;;
+;;;   YOW: Common lisp utilities to generate texty bogons;   
+;;;   YOW  is a small common-lisp implementation of the well known "fortune cookie"
+;;;   utility, named after the familiar EMACS implementation.  In addition, this
+;;;   package includes a small collection of cookie databases.;   
+;;;   This package was implemented with a goal of producing a simple, stand-alone
+;;;   prototype demonstration of various stylistic code and packaging concerns,
+;;;   such as system definition, code portability, regression testing,
+;;;   api, and test-result documentation. It does not necessarily attempt to
+;;;   implement the most efficient algorithmic solution.;   ;   * Examples:;   
+;;;   The following will produce a string containing a randomly chosen Last Name
+;;;   -- see;   {defun yow} ;   ;;; (yow :last-names);   ;;; ;; => "Smith";   
+;;;   * Notes:;   ;   Names databases originate:
+;;;   - From Bob Baldwin's collection from MIT
+;;;   - Augmented by Matt Bishop and Daniel Klein;   
+;;;   Fortune databases brought to you from FreeBSD:
+;;;   - FreeBSD: src/games/fortune/datfiles/fortunes,v 1.179.2.8 2006/08/12 20:30:09 yar
+;;;   - FreeBSD: src/games/fortune/datfiles/fortunes-o.real,v 1.19 2004/04/29 04:36:36 smkelly
+;;;   - FreeBSD: src/games/fortune/datfiles/fortunes2-o,v 1.30 2005/02/03 22:48:29 schweikh
+;;;   - FreeBSD: src/games/fortune/datfiles/startrek,v 1.7 2005/04/24 15:31:11 schweikh
+;;;   - FreeBSD: src/games/fortune/datfiles/zippy,v 1.4 2005/02/01 16:34:38 ru
+;;;   - FreeBSD: src/games/fortune/datfiles/murphy,v 1.11 2005/02/01 16:34:38 ru
+;;;   - FreeBSD: src/games/fortune/datfiles/murphy-o,v 1.2 2003/03/19 17:50:59 eivind
+;;;   - FreeBSD: src/games/fortune/datfiles/limerick,v 1.8 2005/05/07 17:56:50 sch
+;;;   
+;;;   Spook and Zippy the Pinhead databases imported from GNU EMACS (yow.lines, spook.lines) sources.  Zippy database is currently also used by:
+;;;   - the FORTUNE program on OZ.AI.MIT.EDU
+;;;   - the m-x yow command in GNU Emacs.;   - NIL (MIT Common Lisp)'s debugger
+;;;   - something Bandy wrote at LLL-CRG.ARPA (fucking death labs).
+;;;   - Henry's Zippy proxy (http://www.metahtml.com/apps/zippy/);   ;   
+;;;   * See Also:;   
+;;;   This Package Incorporates the Following Scaffolding and Component Frameworks.
+;;;   ;   -  LIFT framework for interactive unit testing by Gary King.
+;;;   {http://common-lisp.net/project/lift/};   
+;;;   -  CLDOC api documentation facility by Iban Hatchondo.
+;;;   {http://common-lisp.net/project/cldoc/};   
+;;;   -  ASDF system definition framework by Daniel Barlow.
+;;;   {http://cliki.net/asdf/};   ;   -  CL-PPCRE;   ;   -  ITERATE;   
+

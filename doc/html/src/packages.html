@@ -42,7 +42,7 @@ packages
 </h2>
 <div class="defpackage">
 <div class="defunsignatures">
-<a id="_g2">
+<a id="_g61">
 </a>
 <table cellpadding="0" cellspacing="0" width="100%">
 <colgroup span="3">
@@ -72,6 +72,13 @@ YOW is a small common-lisp implementation of the well known &quot;fortune cookie
  package includes a small collection of cookie databases. 
  </p>
 <p>
+This package was implemented with a goal of producing a simple, stand-alone 
+ prototype demonstration of various stylistic code and packaging concerns, 
+ such as system definition, code portability, regression testing, 
+ api, and test-result documentation. It does not necessarily attempt to 
+ implement the most efficient algorithmic solution. 
+ </p>
+<p>
 * Examples: 
  </p>
 <p>
@@ -87,12 +94,95 @@ The following will produce a string containing a randomly chosen Last Name
 <h4>
 Notes: </h4>
 <p>
-This package was implemented with a goal of producing a simple, stand-alone 
- prototype demonstration of various stylistic code and packaging concerns, 
- such as system definition, code portability, regression testing, 
- api, and test-result documentation. It does not necessarily attempt to 
- implement the most efficient algorithmic solution. 
+Names databases originate: 
  </p>
+<ul>
+<li>
+<p>
+From Bob Baldwin's collection from MIT 
+ </p>
+</li>
+<li>
+<p>
+Augmented by Matt Bishop and Daniel Klein 
+ </p>
+</li>
+</ul>
+<p>
+Fortune databases brought to you from FreeBSD: 
+ </p>
+<ul>
+<li>
+<p>
+FreeBSD: src/games/fortune/datfiles/fortunes,v 1.179.2.8 2006/08/12 20:30:09 yar 
+ </p>
+</li>
+<li>
+<p>
+FreeBSD: src/games/fortune/datfiles/fortunes-o.real,v 1.19 2004/04/29 04:36:36 smkelly 
+ </p>
+</li>
+<li>
+<p>
+FreeBSD: src/games/fortune/datfiles/fortunes2-o,v 1.30 2005/02/03 22:48:29 schweikh 
+ </p>
+</li>
+<li>
+<p>
+FreeBSD: src/games/fortune/datfiles/startrek,v 1.7 2005/04/24 15:31:11 schweikh 
+ </p>
+</li>
+<li>
+<p>
+FreeBSD: src/games/fortune/datfiles/zippy,v 1.4 2005/02/01 16:34:38 ru 
+ </p>
+</li>
+<li>
+<p>
+FreeBSD: src/games/fortune/datfiles/murphy,v 1.11 2005/02/01 16:34:38 ru 
+ </p>
+</li>
+<li>
+<p>
+FreeBSD: src/games/fortune/datfiles/murphy-o,v 1.2 2003/03/19 17:50:59 eivind 
+ </p>
+</li>
+<li>
+<p>
+FreeBSD: src/games/fortune/datfiles/limerick,v 1.8 2005/05/07 17:56:50 sch 
+ </p>
+</li>
+</ul>
+<p>
+Spook and Zippy the Pinhead databases imported from GNU EMACS (yow.lines, spook.lines) sources. Zippy database is currently also used by: 
+ </p>
+<ul>
+<li>
+<p>
+the FORTUNE program on OZ.AI.MIT.EDU 
+ </p>
+</li>
+<li>
+<p>
+the m-x yow command in GNU Emacs. 
+ </p>
+</li>
+<li>
+<p>
+NIL (MIT Common Lisp)'s debugger 
+ </p>
+</li>
+<li>
+<p>
+something Bandy wrote at LLL-CRG.ARPA (fucking death labs). 
+ </p>
+</li>
+<li>
+<p>
+Henry's Zippy proxy (http://www.metahtml.com/apps/zippy/) 
+ </p>
+</li>
+</ul>
 <p>
 </p>
 <h4>
@@ -105,7 +195,8 @@ This Package Incorporates the Following Scaffolding and Component Frameworks.
 <ul>
 <li>
 <p>
-LIFT framework for interactive unit testing by Gary King. <a href="http://common-lisp.net/project/lift/">
+LIFT framework for interactive unit testing by Gary King. 
+ <a href="http://common-lisp.net/project/lift/">
 http://common-lisp.net/project/lift/</a>
 
  </p>
@@ -114,7 +205,8 @@ http://common-lisp.net/project/lift/</a>
 <ul>
 <li>
 <p>
-CLDOC api documentation facility by Iban Hatchondo. <a href="http://common-lisp.net/project/cldoc/">
+CLDOC api documentation facility by Iban Hatchondo. 
+ <a href="http://common-lisp.net/project/cldoc/">
 http://common-lisp.net/project/cldoc/</a>
 
  </p>
@@ -123,9 +215,24 @@ http://common-lisp.net/project/cldoc/</a>
 <ul>
 <li>
 <p>
-ASDF system definition framework by Daniel Barlow. <a href="http://cliki.net/asdf/">
+ASDF system definition framework by Daniel Barlow. 
+ <a href="http://cliki.net/asdf/">
 http://cliki.net/asdf/</a>
 
+ </p>
+</li>
+</ul>
+<ul>
+<li>
+<p>
+CL-PPCRE 
+ </p>
+</li>
+</ul>
+<ul>
+<li>
+<p>
+ITERATE 
  </p>
 </li>
 </ul>
@@ -133,6 +240,6 @@ http://cliki.net/asdf/</a>
 </div>
 </div>
 <div class="cludg-footer">
-Generated with Clozure Common Lisp - 2009-03-21 17:56:24 </div>
+Generated with Clozure Common Lisp - 2009-03-25 00:13:45 </div>
 </body>
 </html>
