@@ -76,7 +76,8 @@
                     (system (eql (find-system :yow))))
   "Perform unit test suite on yow system"
   (asdf:operate 'asdf:load-op :yow)
-  (funcall (intern (string :run-tests) (string :lift)) :yow))
+  (asdf:operate 'asdf:load-op :yow.test)
+  (funcall (intern (string :run-tests) (string :yow.test))))
 
 (defmethod operation-done-p
   ((op asdf:test-op) (system (eql (find-system :yow))))
