@@ -1,0 +1,54 @@
+;;;;; -*-    mode: lisp; syntax: common-lisp; coding: utf-8; base: 10;      -*-
+;;;;;
+;;;;; test-config.lift
+;;;;;     LIFT UNIT TEST CONFIGURATION
+;;;;;
+;;;;; Updated:Dan Lentz 2009-Mar-25 02:39:24 EDT
+;;;;; Created: Dan Lentz <dan@lentz.com> 2009-03-25
+;;;;; 
+;;;;; Keywords: lift common-lisp unit regression test config
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;
+;;; specify testing configurables
+;;;
+
+(:if-dribble-exists :supersede)
+(:dribble "test-log.txt")
+(:print-length 10)
+(:print-level 5)
+(:print-test-case-names t)
+(:print-testsuite-names t)
+(:describe-if-not-successful t)
+(:evaluate-when-defined nil)
+(:print-when-defined t)
+(:show-expected-p t)
+(:show-details-p t)
+(:show-code-p t)
+(:log-pathname t)
+
+;;;
+;;; invoke testsuites to run
+;;;
+
+(yow-root-testsuite)
+
+;;;
+;;; specify reporting parameters
+;;;
+
+(:report-property :title "Yow! Unit Testing Report")
+;; (:report-property :relative-to "lift-test")
+(:report-property :unique-name nil)
+(:report-property :style-sheet "test-style.css")
+(:report-property :if-exists :supersede)
+(:report-property :format :html)
+(:report-property :name "test-results/")
+(:build-report)
+
+(:report-property :format :describe)
+(:report-property :full-pathname *standard-output*)
+(:build-report)
+
+
