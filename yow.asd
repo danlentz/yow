@@ -40,7 +40,7 @@
   :depends-on ( :iterate :cl-ppcre )
   :serial t :components
   ((:module "src" :serial t :components
-     ((:file "packages") (:file "yow")))))
+     ((:file "packages") (:file "yow") (:file "user-api")))))
 
 (defsystem :yow.test
   :name "yow test suite"
@@ -94,11 +94,11 @@ Lazily loads yow system and CLDOC framework as needed."
   (asdf:operate 'asdf:load-op :yow)
   (asdf:operate 'asdf:load-op :cldoc)
 
-  (ignore-errors 
-    (defconstant cldoc::+DEFAULT-SECTION-NAMES+
-      (list "Overview:" "See Also:" "Examples:" "Notes:" "History:"
-        "Status:" "Affected By:" "Side Effects:" "Arguments and Values:"
-        "Exceptional Situations:" "Requirements:" "Specification:")))
+  (makunbound cldoc:+DEFAULT-SECTION-NAMES+)
+  (defconstant cldoc:+DEFAULT-SECTION-NAMES+
+    (list "Overview:" "See Also:" "Examples:" "Notes:" "History:"
+      "Status:" "Affected By:" "Side Effects:" "Arguments and Values:"
+      "Exceptional Situations:" "Requirements:" "Specification:"))
   
   (defun cldoc::make-footer ()
     "Appends locally specified footer to cldoc:html driven output"
