@@ -19,8 +19,8 @@ packages</title>
 <tr>
 <td align="left" valign="baseline">
 <br/>
-<a href="yow.html">
-Next:&nbsp;yow</a>
+<a href="slurp.html">
+Next:&nbsp;slurp</a>
 </td>
 <td>
 &nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -42,7 +42,7 @@ packages
 </h2>
 <div class="defpackage">
 <div class="defunsignatures">
-<a id="_g61">
+<a id="_g13833">
 </a>
 <table cellpadding="0" cellspacing="0" width="100%">
 <colgroup span="3">
@@ -53,7 +53,7 @@ packages
 <tbody>
 <tr>
 <td class="symbol-name">
-YOW&nbsp;&nbsp;</td>
+EBUGS.YOW&nbsp;&nbsp;</td>
 <td class="lambda-list">
 </td>
 <td class="symbol-type">
@@ -65,18 +65,9 @@ YOW&nbsp;&nbsp;</td>
 <div class="doc-body">
 <p>
 YOW: Common lisp utilities to generate texty bogons 
- </p>
-<p>
-YOW is a small common-lisp implementation of the well known &quot;fortune cookie&quot; 
+ YOW is a small common-lisp implementation of the well known &quot;fortune cookie&quot; 
  utility, named after the familiar EMACS implementation. In addition, this 
  package includes a small collection of cookie databases. 
- </p>
-<p>
-This package was implemented with a goal of producing a simple, stand-alone 
- prototype demonstration of various stylistic code and packaging concerns, 
- such as system definition, code portability, regression testing, 
- api, and test-result documentation. It does not necessarily attempt to 
- implement the most efficient algorithmic solution. 
  </p>
 <p>
 * Examples: 
@@ -92,7 +83,57 @@ The following will produce a string containing a randomly chosen Last Name
 <p>
 </p>
 <h4>
+See Also: </h4>
+<p>
+This Package Incorporates the Following Scaffolding and Component Frameworks. 
+ </p>
+<p>
+</p>
+<ul>
+<li>
+<p>
+LIFT framework for interactive unit testing by Gary King. 
+ <a href="http://common-lisp.net/project/lift/">
+http://common-lisp.net/project/lift/</a>
+
+ </p>
+</li>
+<li>
+<p>
+CLDOC api documentation facility by Iban Hatchondo. 
+ <a href="http://common-lisp.net/project/cldoc/">
+http://common-lisp.net/project/cldoc/</a>
+
+ </p>
+</li>
+<li>
+<p>
+ASDF system definition framework by Daniel Barlow. 
+ <a href="http://cliki.net/asdf/">
+http://cliki.net/asdf/</a>
+
+ </p>
+</li>
+<li>
+<p>
+CL-PPCRE 
+ </p>
+</li>
+<li>
+<p>
+ITERATE 
+ </p>
+</li>
+</ul>
+<h4>
 Notes: </h4>
+<p>
+This package was implemented with a goal of producing a simple, stand-alone 
+ prototype demonstration of various stylistic code and packaging concerns, 
+ such as system definition, code portability, regression testing, 
+ api, and test-result documentation. It does not necessarily attempt to 
+ implement the most efficient algorithmic solution. 
+ </p>
 <p>
 Names databases originate: 
  </p>
@@ -109,52 +150,53 @@ Augmented by Matt Bishop and Daniel Klein
 </li>
 </ul>
 <p>
-Fortune databases brought to you from FreeBSD: 
+Fortune databases brought to you from the FreeBSD 'ports' collection: 
  </p>
 <ul>
 <li>
 <p>
-FreeBSD: src/games/fortune/datfiles/fortunes,v 1.179.2.8 2006/08/12 20:30:09 yar 
+src/games/fortune/datfiles/fortunes,v 1.179.2.8 2006/08/12 20:30:09 yar 
  </p>
 </li>
 <li>
 <p>
-FreeBSD: src/games/fortune/datfiles/fortunes-o.real,v 1.19 2004/04/29 04:36:36 smkelly 
+src/games/fortune/datfiles/fortunes-o.real,v 1.19 2004/04/29 04:36:36 smkelly 
  </p>
 </li>
 <li>
 <p>
-FreeBSD: src/games/fortune/datfiles/fortunes2-o,v 1.30 2005/02/03 22:48:29 schweikh 
+src/games/fortune/datfiles/fortunes2-o,v 1.30 2005/02/03 22:48:29 schweikh 
  </p>
 </li>
 <li>
 <p>
-FreeBSD: src/games/fortune/datfiles/startrek,v 1.7 2005/04/24 15:31:11 schweikh 
+src/games/fortune/datfiles/startrek,v 1.7 2005/04/24 15:31:11 schweikh 
  </p>
 </li>
 <li>
 <p>
-FreeBSD: src/games/fortune/datfiles/zippy,v 1.4 2005/02/01 16:34:38 ru 
+src/games/fortune/datfiles/zippy,v 1.4 2005/02/01 16:34:38 ru 
  </p>
 </li>
 <li>
 <p>
-FreeBSD: src/games/fortune/datfiles/murphy,v 1.11 2005/02/01 16:34:38 ru 
+src/games/fortune/datfiles/murphy,v 1.11 2005/02/01 16:34:38 ru 
  </p>
 </li>
 <li>
 <p>
-FreeBSD: src/games/fortune/datfiles/murphy-o,v 1.2 2003/03/19 17:50:59 eivind 
+src/games/fortune/datfiles/murphy-o,v 1.2 2003/03/19 17:50:59 eivind 
  </p>
 </li>
 <li>
 <p>
-FreeBSD: src/games/fortune/datfiles/limerick,v 1.8 2005/05/07 17:56:50 sch 
+src/games/fortune/datfiles/limerick,v 1.8 2005/05/07 17:56:50 sch 
  </p>
 </li>
 </ul>
 <p>
-Spook and Zippy the Pinhead databases imported from GNU EMACS (yow.lines, spook.lines) sources. Zippy database is currently also used by: 
+Spook and Zippy the Pinhead databases arrived via GNU EMACS source distribution 
+ (yow.lines, spook.lines). Zippy database is currently also used by: 
  </p>
 <ul>
 <li>
@@ -174,7 +216,7 @@ NIL (MIT Common Lisp)'s debugger
 </li>
 <li>
 <p>
-something Bandy wrote at LLL-CRG.ARPA (fucking death labs). 
+something Bandy wrote at LLL-CRG.ARPA 
  </p>
 </li>
 <li>
@@ -183,63 +225,12 @@ Henry's Zippy proxy (http://www.metahtml.com/apps/zippy/)
  </p>
 </li>
 </ul>
-<p>
-</p>
-<h4>
-See Also: </h4>
-<p>
-This Package Incorporates the Following Scaffolding and Component Frameworks. 
- </p>
-<p>
-</p>
-<ul>
-<li>
-<p>
-LIFT framework for interactive unit testing by Gary King. 
- <a href="http://common-lisp.net/project/lift/">
-http://common-lisp.net/project/lift/</a>
-
- </p>
-</li>
-</ul>
-<ul>
-<li>
-<p>
-CLDOC api documentation facility by Iban Hatchondo. 
- <a href="http://common-lisp.net/project/cldoc/">
-http://common-lisp.net/project/cldoc/</a>
-
- </p>
-</li>
-</ul>
-<ul>
-<li>
-<p>
-ASDF system definition framework by Daniel Barlow. 
- <a href="http://cliki.net/asdf/">
-http://cliki.net/asdf/</a>
-
- </p>
-</li>
-</ul>
-<ul>
-<li>
-<p>
-CL-PPCRE 
- </p>
-</li>
-</ul>
-<ul>
-<li>
-<p>
-ITERATE 
- </p>
-</li>
-</ul>
 </div>
 </div>
 </div>
 <div class="cludg-footer">
-Generated with Clozure Common Lisp - 2009-03-25 00:13:45 </div>
+Generated by&nbsp;<a href="mailto:ihatchondo@common-lisp.net" lang="en">
+CLDOC</a>
+- 2009-05-19 18:18:57</div>
 </body>
 </html>

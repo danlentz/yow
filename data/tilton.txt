@@ -1,0 +1,787 @@
+I think it would be harder for a good programmer to change editors than to change languages.
+%
+Parentheses? What parentheses? I haven't noticed any parentheses
+since my first month of Lisp programming. I like to ask people who
+complain about parentheses in Lisp if they are bothered by all the
+spaces between words in a newspaper...
+%
+Lisp gives you a kazillion ways to solve a problem.
+(1- kazillion) of them are wrong.
+%
+My dream of a Cells consulting business is fading as user after user
+turns out to be hindered not at all by my deliberate withholding
+of documentation.
+%
+Lisp nearing the age of fifty is the most modern language out there. GC, dynamic, reflective, the best OO model extant including GFs, procedural macros, and the only thing old-fashioned about it is that it is compiled and fast.
+%
+Eight years to do TeX? How smart can [Knuth] be? He should have used Lisp.
+%
+[This one apparently stopped the quoter from trying Lisp. The quoter suspected irony but finally decided I was serious.]
+Yeah, I'm a gifted guru. Since you called me that, I guess I'll talk to you a little bit.
+%
+There are no average Lisp programmers. We are the Priesthood. Offerings of incense or cash will do.
+%
+I suppose if what you said had any merit it would occasion hostility.
+%
+Yeah, what the hell can anyone accomplish with beauty and power? (in response to a linked blog entry saying Lisp was beautiful and powerful but unuseable)
+%
+No, you are an asshole doing his best to despoil c.l.l, and I am an
+asshole doing his best to hose out your crap.
+%
+Liars need good memories, trolls need NG readers with bad ones.
+%
+We all need early warning systems for "they might have heard this a million times before". I once destroyed any nano-chance I had with a stunning, taller woman by asking her how tall she was.
+"Six foot two," she replied. "How short are you?"
+%
+Programmers who lock onto a design decision and cling to it in the face of contradictory new information -- well, that's almost everyone in my experience, so I better not say what I think of them or people will start saying bad things about me on c.l.l.
+%
+This reminds me of the NYC cabby who accepted a fare to Chicago. When they got there and could not find the friend who was supposed to pay the fare the cabby just laughed and said he should have known.
+%
+> Actually, I believe that Aikido, Jazz and Lisp are different appearances of the same thing.
+Yes, the Tao. /Everything/ is a different appearance of the tao.
+---
+"Ken, I went to the library and read up on Buddhism, and believe me, you are no Buddhist."
+-- Kenny's Mom
+%
+That absolutely terrifies the herd-following, lockstep-marching, mainstream-saluting cowards who obediently dash out to scoop up books on The Latest Thing. They learn and use atrocities like Java, C++, XML, and even Python for the security it gives them and then sit there slaving away miserably, tediously, joylessly paying off mortgages and supporting ungrateful teenagers who despise them, only to look out the double-sealed thermo-pane windows of their central-heated, sound-proofed, dead-bolted, suffocating little nests into the howling gale thinking "what do they know that I do not know?" when they see us under a lean-to hunched over our laptops to shield them from the rain laughing our asses off as we write great code between bong hits.... what was the question?
+%
+Shut up! (That last phrase has four or more syllables if pronounced as intended.)
+%
+Nonsense. You'll be using it for the GUI, not protein-folding.
+(in response to a comment that LTk was slow)
+%
+Continuations certainly are clever, but if we learned anything from the rejection of the cover art for "Smell the Glove", it is that "there is a fine line between stupid... and clever".
+%
+Ah, there's no place like academia for dispassionate, intellectually honest discussion of new ideas on their merits. Thank god for tenure giving your bold antagonist the protection they needed to shout down your iconoclastic..... hang on...
+%
+Whoever objected must be in my killfile, ...
+%
+From memory (but I think I have it right): "But Jesus said, Suffer captured variables, and forbid them not to come unto thine macro bodies, for of such are DSLs made." Can I get an Amen?
+%
+Awareness of defect is the first step to recovery.
+%
+You made a bad analogy (there are no good ones, but you found a new low) ...
+%
+Yes, it is true that Kent Pitman was raised by a closet full of Lisp Machines, but the exception only proves the rule. (in a postscript after positing that computer languages are not learned in infancy)
+%
+I suggest you try bartender's school to support yourself, start programming for fun again.
+(responding to a comment that 98% of anything to do
+with computers was not interesting code)
+%
+I could add four lanes to my carpal tunnel and still not write all the code I am dying to write.
+%
+Neutrality? I want to bury other languages, not have a gateway to them.
+%
+Ken: "Cute puppy. Did you get it for companionship or to pick up chicks?"
+Simon: "Hunh? My puppy /always/ gives me companionship."
+(on how he was understood by a native English speaker)
+%
+> Yeah. In case you guys didn't quite get it, this particular site
+> targets (among other things) the Turkish lisp effort. Yours truly and
+> others have also been accused of being destructive to Turkish youth
+They want you to copy them first?
+%
+You can lead a horse away from water, but if it wants to drink you
+better have a big frickin stun gun. No, I have no idea what I just said.
+%
+PWUIAHAHAHAHA. This is Lisp. We never use anyone else's code. Hell, most of us won't even use Lisp, insist on creating our own with C.
+%
+OK, who is going to head over to c.l.python and suggest parentheses instead of whitespace? It could be a pretty funny post. "Hey, guys! I was looking at Lisp, had this great idea...keep an open mind!"
+%
+Educational software itself is now an acknowledged joke precisely because of people who try to foist on others "Oh, look, we used a computer, it must be in-frickin-credible".
+%
+Horse. Cart. Please note order.
+%
+Start this thread again. Change the subject to "Lisp Sucks! Molasses is faster!!" and post the code and some timings and the whole community will be working for you for free.
+%
+We live here. Every week we see noobs stumble in the door, trip over the upturned rug, bang their heads on the too-low hanging lamp, and then ease into Lisp pretty easily after being pointed to Lisp-aware editors, Slime, PCL, etc etc directed by living Lisp Gods, dynamic and interactive, not some two-dimensional billboard of an FAQ that just raises more questions.
+%
+Are you looking for that "friends" stuff from C++ (if I have that right, unless it was Java ). This is Lisp, we just shoot from the hip.
+%
+You people do not listen to me on AllegroCL, you do not listen to me on Cells, why am I not surprised you do not listen to me on the tao?
+%
+Two prehensile toes up!
+-- reporting on behalf of his development team their review of Peter Seibel's "Practical Common Lisp"
+%
+Pearls. Swine. Please note order.
+%
+> I think it's a fairly large assumption that this problem is soluble...
+If not work on it should be suspended.
+%
+This will be a commercial "Hello World" app that displays "Hello", asks you to login or buy, then displays "world". More soon.
+%
+> Callbacks are a form of continuation.
+Yes, in the same sense that a shoe is a form of aircraft carrier.
+%
+Lisp is no longer the crazy aunt in the attic, she is now out in the front parlor where her admirers come to pay homage and learn at her feet.
+%
+> fred gilham wrote:
+>> kenny tilton wrote:
+>>> fred gilham wrote:
+>>> Become a celebrity like Kenny Tilton.
+>> I am a simple Lisp programmer.
+>> --
+>> "I am a simple Buddhist monk. "
+>> -- Tenzin Gyatso, the Fourteenth Dalai Lama
+> On top of everything else, humble too! :-)
+%
+Are you trying to win a Moron Contest*, or did I miss a joke? 
+        -- Kenneth Tilton <49af6064$0$16825$607ed...@cv.net> 
+% 
+[Quoting some "Bell Labs engineer" from the Newark Star Ledger] 
+"The hardest part for me was realizing I was being tolerated by all 
+the people I had been tolerating." 
+        -- Kenny <48a4e01c$0$20935$607ed...@cv.net> 
+% 
+That is a metaquestion.  No metaquestions allowed under Obama.  Note 
+that this is a metametaanswer, it's like minus signs, ya got two ya 
+ain't got any.  With me so far? 
+        -- Kenneth Tilton <4978c9ce$0$25415$607ed...@cv.net> 
+% 
+Let's decide on the shape of the table before deciding if the 
+discussion to decide if free open software is ethical is going 
+anywhere. 
+        -- Ken Tilton <47cdab9e$0$25032$607ed...@cv.net> 
+% 
+Pioneers do not wait for the rest areas on the interstate highway to 
+have sushi bars. 
+        -- Kenny <490f1686$0$5626$607ed...@cv.net> 
+% 
+The Mac I have now sounds like a 747 turbine after spinning up, can't 
+even hear The Voices let alone program a computer. 
+        -- Kenny <490ba086$0$5643$607ed...@cv.net> 
+% 
+What part of Anna Kournikova do you not understand? 
+        -- Kenny <49090e29$0$5660$607ed...@cv.net> 
+% 
+What part of the mind-body problem do you not understand? 
+        -- Ken Tilton <_d8ch.956$7t3....@newsfe11.lga> 
+% 
+That will be well-received, and when Anna Kournikova sends you an 
+email asking you to come spend a week with her you complain that she 
+misspelled Tahiti and the airline tickets she sent were not 
+first-class and write back asking if she knows anyone prettier you 
+could stay with? 
+        -- Ken Tilton <3omyh.2$G...@newsfe11.lga> 
+% 
+I think Celtk just needs Cells.  This is like saying that if you want 
+Anna Kournikova to have your baby then you have to sleep with her. 
+        -- Ken Tilton <4bsvh.1734$Jz5....@newsfe11.lga> 
+% 
+Anna played tennis? 
+        -- Ken Tilton <77uvh.24$Zz1...@newsfe08.lga> 
+% 
+Muhammed ibn Musa al-Khowarizmi!  He wrote the book on Algebra! 
+Literally.  Not sure where I can get a picture, tho.  Maybe I can give 
+Anna a beard... 
+        -- Ken Tilton <485f1102$0$11606$607ed...@cv.net> 
+% 
+I feel a naggum coming on.  When you think you know what I am thinking 
+try to stop thinking. 
+        -- Kenny <48d5ec2c$0$4968$607ed...@cv.net> 
+% 
+[...] you should -- I feel a naggum coming on -- stop trying to impose 
+your prior understanding on a new experience.  You are like an 
+American tourist landing in Kinshasha and going in search of a Burger 
+King.  Sadly they do not have to go far. 
+        -- Kenny <48a39723$0$20927$607ed...@cv.net> 
+% 
+I feel a Naggum coming on.  Before you contradict me or challenge me 
+or quote me, please make sure you are not in fact talking about an 
+inferior model of me rooting around somewhere in your cortex (and what 
+a scary image that is). 
+        -- Ken Tilton <47aeacac$0$15181$607ed...@cv.net> 
+% 
+New Yorkers are not offensive.  The joke is a good one (The proper way 
+to ask for directions in NYC? "Excuse me, can you tell me the way to 
+Lincoln Center, or should I go fuck myself?") but the reality is New 
+Yorkers are so nice they will gladly give you directions whether or 
+not they know the way. 
+[...] the mentally ill are often the mostcompassionate because of what 
+they have endured. 
+        -- Kenny <48d44ad2$0$4973$607ed...@cv.net> 
+% 
+Instead you are like a new yorker asked for directions and before they 
+can even get out the words "...to Carnegie Hall" you have responded 
+"Use Google Maps.  And rent the French Connection.  The chase scene 
+covers most of Manhattan." 
+        -- Ken Tilton <NqC7h.3695$LN6.2...@newsfe11.lga> 
+[Actually it was shot in Brooklyn -- rc] 
+% 
+Your other mistake is thinking I was planning a 500-page treatise 
+complete with suggested legal forms.  I am an American, we have Cliff 
+Notes for haiku. 
+        -- Ken Tilton <%2nKh.2630$gN5.1...@newsfe12.lga> 
+% 
+I will be honest here, I am just a humble application programmer, and 
+as an American I barely know where Monte Carlo is because we only need 
+to know where is Las Vegas. 
+        -- Ken Tilton <9PU4h.3489$z14.2...@newsfe08.lga> 
+% 
+> "If Lisp is so great why don't libraries, etc. exist for it like 
+> they do for Ruby, Python, ...". 
+
+You are wondering why Shakespeare never conceived a hit game show like 
+Deal Or No Deal, and why Tiger Woods sucks at miniature golf.  Why 
+Pavarotti never has and never will make it to the Billboard Pop 100, 
+and why Dale Earnhart got fired after one week driving a taxi in NYC 
+(he could only make left turns). 
+        -- Ken Tilton <ycEIh.65$TQ4...@newsfe12.lga> 
+% 
+The first time you run into something is only the first time you will 
+run into it. 
+        -- Ken Tilton <489a128a$0$7359$607ed...@cv.net> 
+% 
+Then again, I do not see why you even want to see it, you already have 
+that sanctimonious glow from using free as in how we defined it 
+software. 
+        -- Ken Tilton <47c6eaa5$0$25046$607ed...@cv.net> 
+% 
+What I saw was a defense of Java as being halfway to Lisp and the bit 
+about him having a chart trying to close all the possible wholes where 
+behavior was unspecified.  True Lispers laugh in the face of 
+unspecified.  Hell, we pay extra for it. 
+        -- Ken Tilton <480d4bc8$0$15191$607ed...@cv.net> 
+% 
+Meanwhile Steele famously claims Java is halfway to Lisp.  Perhaps he 
+meant starting from the stone axe? 
+        -- Ken Tilton <480d4bc8$0$15191$607ed...@cv.net> 
+% 
+Apparently these geniuses think it matters one whit whether the spec 
+in its entirety can be carved on the head of a pin. 
+        --Ken Tilton 
+% 
+Now there's a language design principle.  Another good one is that you 
+can sing it to the tune of Camptown Races. 
+        -- Ken Tilton 
+% 
+"...Those who can't do, teach.  Badly.  I am reminded of the New Math, 
+which made Principia Mathematica (?) a first-grade textbook." 
+        -- Ken Tilton 
+% 
+".... Never heard from again, though rumor has it Steele found work 
+as a tech writer for Sun." 
+        -- Ken Tilton 
+% 
+[on motivation to finish his product] 
+Not to worry, I have a friendly letter here from the IRS asking when 
+they might expect to see last year's taxes, those tend to focus the 
+mind wonderfully as well. :) 
+        -- Ken Tilton <483e2958$0$11612$607ed...@cv.net> 
+% 
+wants to follow The One True Lisp Way and trust us to know what we are 
+doing, so compliance here would be compliance for it's own sake. 
+I must need a drink, that last word looks like a Japanese malt brew. 
+        -- Ken Tilton <483f131a$0$25066$607ed...@cv.net> 
+% 
+Had you responded here instead of by email I could have 
+eviscerated you in public (the only thing I really enjoy, the only 
+thing that sets me apart from serial killers). 
+        -- Ken Tilton <47f025b2$0$15172$607ed...@cv.net> 
+% 
+> And thank you all, (every #'primep ...) worked great.  I found it is 
+> a very nice and helpful place here! 
+
+Just wait until you put a parens on its own line, the honeymoon will 
+be over fast. 
+        -- Ken Tilton <47f255cf$0$5645$607ed...@cv.net> 
+% 
+> I try never to memorize what I can just look up. 
+
+Right.  I never memorized C precedence, I dog-eared that one page in 
+K&R and/or threw in a pair of air-bag parens and skipped the lookup 
+altogether, 
+        -- Ken Tilton <4801a7ef$0$25055$607ed...@cv.net> 
+% 
+But that code is quite solid and close to Deeply Correct.  I know 
+because it has not changed much in years and handles new requirements 
+effortlessly, generally by /taking out/ code that was enforcing 
+disciplines which turned out not to be necessary (and in Lisp we hold 
+inalienable the right to shoot off our own toes). 
+        -- Ken Tilton <4811d013$0$11643$607ed...@cv.net> 
+% 
+In the end I remembered that I have never let a concern for accuracy 
+get in the way of my rants, way too much work. 
+        -- Ken Tilton <47b219d5$0$15202$607ed...@cv.net> 
+% 
+hard-charging newbies such as yourself landing in Lispville 
+dumbfounded by all the dust, cobwebs, rust, and neglect giving the 
+boot to the war-weary, disheartened, parentheses-mocked old soldiers 
+rolling up your sleeves and setting about dragging the damn language 
+out of the seventies and into the 21st century just in time for the 
+asteroid to hit.  What was the question? 
+        -- Ken Tilton <47793f8a$0$13810$607ed...@cv.net> 
+% 
+You want there to be a problem, just like the strong static typers 
+want there to be a problem.  Unfortunately for all you finger shaking, 
+rule making, strait jacket wearing school marms we have a nonexistence 
+proof of craploads of great code being written without a problem in 
+spite of your sky is falling obsessive compulsive gnashing of the 
+teeth. 
+        -- Ken Tilton <ORoAi.286$5R3....@newsfe12.lga> 
+% 
+I actually had a business card that just said "Programmer".  Got 
+everyone quite upset, they wanted "Systems Analyst" or "Software 
+Engineer" or "Database Administrator" or something.  My point was that 
+one cannot program a computer effectively without doing all those 
+things, so "Programmer" was sufficient. 
+        -- Ken Tilton <4658DBF0.6020...@optonline.net> 
+% 
+Hacker is a term used by us computer geeks in a desperate attempt to 
+glamorize our bit-ridden asses, as if the best of us will ever get 
+laid as often as the tone-deaf, rhythym-blind bassist of a third rate 
+cover band on Long Island, let alone the rock stars we pose as when we 
+call ourselves hackers. 
+        -- Ken Tilton <4658DBF0.6020...@optonline.net> 
+% 
+>> Wow, that is two non-required requirements in a week.  Me, I am 
+>> looking for a transmission that can go from forward to reverse at 
+>> fifty miles an hour without self-destructing.  I don't have a need 
+>> for this, I am just looking for it. 
+> Easily done.  Not so easy is to allow any human passengers to 
+> survive the event. 
+
+Reminds me of the guy I met who said he and his buddy agreed at 
+sixty-five miles an hour to find out what would happen if they applied 
+the parking brake.  Let's just say it is a good thing that they had 
+agreed on it, and that the rental car company did not ask how their 
+car ended up upside down. 
+        -- Ken Tilton <RGr3i.1695$kH1....@newsfe12.lga> 
+% 
+If you have to use so many big words, you must be wrong. 
+        --Ken Tilton <475afae1$0$32065$607ed...@cv.net> 
+% 
+Please follow up, I want to see if my killfile is working. 
+        --Ken Tilton <475afae1$0$32065$607ed...@cv.net> 
+% 
+Yeah, yeah, it was just a rant, you never want those held back by 
+concerns over accuracy.  The sexp/mexp thing esp.  suggests divine 
+inspiration might be a better model than alien arrival. 
+        -- Ken Tilton <475c6c06$0$32074$607ed...@cv.net> 
+% 
+Unlike the inability of a deliberate mention of Hitler to function as 
+would an emotionally honest invocation of same to signal the end of a 
+flamewar, one can apparently climb up on top of the nearest car hood 
+and announce one is starting a flamewar just to irritate people and a 
+crowd will immediately form to argue with one over doing so. 
+I once saw a nature special in which some insect or other dragged some 
+other dead insect somewhere then turned around and dug a whole for it 
+to bury it but the researchers moved the dead insect a bit while it 
+was digging so it had to drag it back but while it did they filled in 
+the hole and back and forth this insect went indefinitely until a PETA 
+sniper took out the researchers.  Where was I? 
+        -- Ken Tilton <CC3Zi.499$9q2...@newsfe10.lga> 
+% 
+>>I realize other people prefer other environments, they are just 
+>>mistaken.  My ideal setup happens to be the best, hands down. 
+
+Wow, I am really out on a limb there.  It would be pretty easy to take 
+me down by naming a superior or even near equal environment.  Or you 
+could back down in the face of my confidence and resort to, I don't 
+know, name-calling? 
+> You're clearly deluded. 
+
+Understood. 
+        -- Ken Tilton <BUbUi.6825$yU7.5...@newsfe12.lga> 
+% 
+I am not, really.  I will do a year or two of Algebra and then have 
+enough money to open a bar, do what I really want, tend bar. 
+        -- Ken Tilton <%e6Ui.1426$yU7....@newsfe12.lga> 
+% 
+Mind you I /have/ AG, but there is no point in doing cells-rdf if the 
+rest of you food-stamp licking, government cheese eating, thrift 
+shopping oooh-its-gotta-be-free pikers won't be able to benefit from 
+my unceasing thankless toil on your behalf. 
+        -- Ken Tilton <AzC_i.6$I...@newsfe08.lga> 
+% 
+> Cells or Cello might be the solution.  But getting mad at people won't 
+> help. 
+
+Thanks for your concern! 
+Not to worry, I abuse these yobbos for fun, not out of anger.  And I 
+am not sure c.l.l would know what to do with KGK (Kindler Gentler 
+Kenny), but... 
+        -- Ken Tilton <uZzQi.2739$tf7.1...@newsfe12.lga> 
+% 
+Otherwise, sorry Karl, we are discussing the best way to learn Lisp 
+(free ACL trial on win32), not the best way to resurrect your six-feet 
+under commie pinko socioeconomic theory. 
+        -- Ken Tilton  <e%LTi.46$qt4...@newsfe12.lga> 
+% 
+> Can someone with a bigger brain than me please elucidate. 
+
+I think the problem is not brain-size so much as your admirable 
+attempt to understand a tool by reading about it.  That puts you at 
+the mercy of technical writers, who combine an inability to program at 
+all well with an inability to write. 
+        -- Ken Tilton <3qFLi.72$gu2...@newsfe12.lga> 
+% 
+> check this out buddies 
+
+I have a buddy?!!!  woo-hoo!  I thought I had alienated everyone with 
+my sarcasm!!!! 
+        -- Ken Tilton <LfcKi.49$Ac...@newsfe12.lga> 
+% 
+Tell us more about your home planet. 
+        -- Ken Tilton <0TGJi.226$Vi4....@newsfe12.lga> 
+% 
+I'm gonna hurl.  Come on, everyone, newsgroup hug.... 
+        -- Ken Tilton <qwAHi.82$iA...@newsfe12.lga> 
+% 
+(a) You seem to be unaware of the Laws of Conservation of Hyphen 
+Momentum: according to the CLHS, a term in hyphen motion tends to 
+remain in motion, a term at hyphen rest tends to remain at rest. 
+(b) Really, the worst thing you can do in CL is use a macro where a 
+function would do.  The Pope does not sudo ex cathedra to say, "It's 
+not the heat, it's the humidity." 
+        -- Ken Tilton <a6vGi.7$_M...@newsfe12.lga> 
+% 
+Was the author writing under the cloak of infallibility, channeling 
+the word of G*d, and is our Talmudic interpretation of those awkward 
+words precise?  The legislative history shows that CL got designed to 
+address concerns of The Big Customer over language fragmentation, so 
+it is hard to imagine an intent other than to define one language. 
+The next step was a pretty tight ANSI standard language specification. 
+Too easy? (I know, it is mroe fun being contrarian.) 
+        -- Ken Tilton <dHxVh.483$ru1....@newsfe12.lga> 
+% 
+The language lawyers cannot save you.  I am your only hope.  I am a 
+simple application programmer. 
+        -- Ken Tilton <PiCXh.245$c%5...@newsfe12.lga> 
+% 
+Fine, bring me a single malt, a pint of amber back, a wedge of cheddar 
+and some saltines.  And we'll need more napkins before we're done with 
+this design. 
+ps.  Oh, and another jar of dijon, and ask the redhead under the 
+moosehead if she would like to join us. 
+        -- Ken Tilton <eihEi.53$q75...@newsfe12.lga> 
+% 
+> What is a `hacker', or `programmer', or `computer scientist'? 
+
+The last two were dragged to their death in the last thread.  Hacker 
+is a term used by us computer geeks in a desperate attempt to 
+glamorize our bit-ridden asses, as if the best of us will ever get 
+laid as often as the tone-deaf, rhythym-blind bassist of a third rate 
+cover band on Long Island, let alone the rock stars we pose as when we 
+call ourselves hackers.  Paul Graham, who I generally greatly admire 
+and hope will because I said that fund my start-up but more lavishly 
+than he does those Y-Combinator conscripts, drove a stake through the 
+heart of the term here: [snip] 
+        -- Ken Tilton <4658DBF0.6020...@optonline.net> 
+% 
+I actually had a business card that just said "Programmer".  Got 
+everyone quite upset, they wanted "Systems Analyst" or "Software 
+Engineer" or "Database Administrator" or something.  My point was that 
+one cannot program a computer effectively without doing all those 
+things, so "Programmer" was sufficient. 
+        -- Ken Tilton <4658DBF0.6020...@optonline.net> 
+% 
+Now can we get back to name-calling?  Stop trying to civilize this 
+brawl. 
+        -- Ken Tilton <4658DBF0.6020...@optonline.net> 
+% 
+>> I always tell youngsters it is OK to take one year off before grad 
+>> school, but for the love of god don't take two. 
+> I think this depends on the person. 
+
+Never look a gift joke in the mouth. 
+        -- Ken Tilton  <5256i.1578$Nj2....@newsfe12.lga> 
+% 
+> My theory is that is we bought and open-sourced [...] we could get 
+> the community to rally around that one,.... 
+
+The idea of this Lisp community "rallying" is about as conceivable as a 
+hootenany down at the cemetery. 
+        -- Ken Tilton <pDobi.37$ZP6...@newsfe12.lga> 
+% 
+It is the mouse that feels bad, not the cat playing with it. 
+        -- Ken Tilton <vog4i.11$cp...@newsfe12.lga> 
+% 
+The big mistake is thinking Lisp is going to grow by first being 
+adopted in Tall Buildings.  They are the drones, the lemmings, the 
+sheep.  They follow where We the Blessed Gurus lead them.  But this 
+time it is to the slaughterhouse, because the world needs only fifty 
+Lisp programmers to write All the Code. 
+        -- Ken Tilton <zzF4i.6717$XU7.4...@newsfe12.lga> 
+% 
+... listening instead of yapping?  Read my frickin lips: I am talking 
+about actual tall-office design reviews in which well-paid engineers 
+...  pragmatically suggested design disasters because they objected to 
+anything a pet rock (sorry, Rockie) could not code. 
+        -- Ken Tilton <1VAZh.11355$eH4.4...@newsfe12.lga> 
+% 
+Anyway, if one has not programmed heads down for three years one 
+likely does not know much about design.  I am sure I write more code 
+in a year than academics write in a lifetime, because we are doing 
+different things.  Hell, they have the sorry task of trying to pretend 
+there /is/ such a thing as computer science.  If there was, wouldn't 
+everyone be using Lisp? 
+        -- Ken Tilton <GY82i.79$k_4...@newsfe12.lga> 
+% 
+Unfortunately I still do not understand the question, and I am a 
+frickin genius, I have a three-digit IQ, 50% more than 2. 
+        -- Ken Tilton <2452i.36$md5...@newsfe12.lga> 
+% 
+Well the trick of folks like H.. is to listen just enough so that one 
+can respond to a direct hit with multiple non-pointing counterpoints, 
+each more retarded than the last and each stated in an artfully 
+needling fashion guaranteed to make the sanest NG denizen continue the 
+thread, as if the /next/ direct hit will achieve any more than the 
+last. 
+It's like playing paintball with a guy who keeps running around and 
+shooting, covered head to toe in paint. 
+        -- Ken Tilton <pKS0i.64$ep4...@newsfe12.lga> 
+% 
+> deal more.  But after seeing your behaviour in cll you can be 
+> assured that I will never, ever consider any functional programming 
+> language.  I can just do without languages that attract that kind of 
+> behaviour. 
+
+        -- tim (and yes, before you respond, that is one reason I 
+           don't use CL so much any more as well.) 
+Abandoning something wonderful because of who else uses it makes 
+perfect sense.  Why did I give up sex?  One word: Joey Buttafucco. 
+        -- Ken Tilton <6m00i.2165$V01.1...@newsfe12.lga> 
+% 
+Never been to a code review, have you?  You are blessed.  The worst 
+crap in the world gets protected by the manager because he is the only 
+person in the room more clueless than the author of the crap and dies 
+when the author dies because the author is in effect a buoyancy device 
+for the in effect non-swimmer manager.  But I digress. 
+        -- Ken Tilton <1VAZh.11355$eH4.4...@newsfe12.lga> 
+% 
+I cannot write correct code to save my life, I just throw out any bad 
+code.  Only trick there is to distract the author with a banana while 
+deleting their code. 
+        -- Ken Tilton <1VAZh.11355$eH4.4...@newsfe12.lga> 
+% 
+You know, the oil companies have developed a car that runs on carbon 
+dioxide and has like 800 horsepower.  Where you can buy one is another 
+question. 
+        -- Ken Tilton <WrnVh.8$UR...@newsfe12.lga> 
+% 
+Me, I saw the "Microsoft Research" oxymoron and did not get much 
+further.  Unless by research they mean using Google to find out what 
+ideas other people have successfuly developed and commercialized so 
+they can copy it badly and crush them. 
+        -- Ken Tilton <T36Vh.22$r%3...@newsfe12.lga> 
+% 
+> Yawn.  You must be a riot at parties. 
+
+And you must be the life of a funeral. 
+        -- Ken Tilton <5w%Nh.131$Tv...@newsfe12.lga> 
+% 
+The way to get this going is to post here an especially good RQ 
+question and your Lisp solution, see if you can drum up interest.  If 
+it takes off, you start a Web site or something.  If not, the ball 
+game comes on at two. 
+        -- Ken Tilton <GN7Uh.2666$S27.2...@newsfe12.lga> 
+% 
+ps.  I agree, the "fingers will be chopped off" sign should not have 
+been Comic Sans. :) 
+        -- Ken Tilton <g1FOh.481$bz4....@newsfe12.lga> 
+% 
+Well whaddya know.  I do GUIs, leave file work to the chimps.  You win 
+a banana. 
+        -- Ken Tilton <x2TTh.16$%n...@newsfe12.lga> 
+% 
+Can we continue this over on comp.lang.turing.complete? 
+        -- Ken Tilton <pzVRh.523$Dh....@newsfe12.lga> 
+% 
+...the only thing that matters is Becoming the Latest Thing.  What is 
+the latest thing?  The (a) new thing (b) being recommended (c) by 
+Famous People (d) in respectable places 
+        -- Ken Tilton <FBmyh.5$G...@newsfe11.lga> 
+% 
+The operator helpfully suggests that I could avoid this problem by 
+simply saying that my mother's maiden name is YOBBO, no one will make 
+fun of me.  He also takes care of confirming the purchase over the 
+phone, while I try to figure out how to sell "Hi, I need to change my 
+mother's maiden name..." to the next operator. 
+        -- Ken Tilton <qMlxh.7394$6E3.3...@newsfe10.lga> 
+% 
+So I am working in a lab?  That would explain all the beakers. 
+        -- Ken Tilton <hT%zh.55$Wr6...@newsfe12.lga> 
+% 
+That rose girl is drying up and a few volcanos need sweeping. 
+        -- Ken Tilton 
+% 
+Grapette this: no, Jodie Foster is /not/ responsible for John Hinckley 
+shooting three people including the President.  The correct question 
+was "Who is John Hinckley?". 
+Really, kiddies, it is OK to blame the perpetrator.  Not that I do in 
+this case.  The OP is clearly an unhappy puppy deserving nothing other 
+than compassion for the demons that drive them to randomly attack 
+Usenet blowhards like me. 
+        -- Ken Tilton <CqSCh.62$rv4...@newsfe09.lga> 
+% 
+And Uhl says Kenny has made the South forget the Civil War, not sure 
+how I could top that.  The hounds are exhausted, smiling in their 
+sleep.  It's all good -- but someone has to talk Bubba and Jethro down 
+from their sniper nests. 
+        -- Ken Tilton <Oa5Jh.2454$cr5....@newsfe12.lga> 
+% 
+Do they have the distinction between a priori and a posteriori in your 
+banjo-pickin, moonshine-slurping, carcinogen-growing, 
+basketball-playing neck of the woods?  How about de jure vs. de facto? 
+Simular. 
+        -- Ken Tilton <AFUIh.8$Um...@newsfe12.lga> 
+% 
+That /was/ a despicable and wholly unjustified ad stateum low-blow, a 
+cheap shot deliberately designed to make me look bad.  It crosses a 
+shocking line, beneath contempt, really.  Clearly I had cut in my 
+flamethrower after-booster and lost all reason or sense of decency. 
+It almost makes me wonder if I was even serious... 
+        -- Ken Tilton <jpJIh.1524$M34....@newsfe12.lga> 
+% 
+See, this is what happens when you get all riled up and change the 
+subject to whether Kenny is consistent or not, you get so emotional 
+you cannot read straight.  And my inconsistency varies quite a bit, so 
+I do not know if you can build an argument on that anyway. 
+ps. Random problem cloning is going well, but obviously slowly enough 
+to have me dashing here to hide pretty regularly. :) What kind of Lisp 
+did you write today? 
+        -- Ken Tilton <6_1ch.378$nQ2....@newsfe10.lga> 
+% 
+MWUAHAHAHAHAHHAHAA!!!!!  Yes, palindromeloopstate set to 1 makes the 
+movie run endlessly forth and back.  Picture looks fine running 
+backwards, but instead of the spoken words coming out in reverse, 
+well, it is just unrecognizable noise.  Working on that now... 
+        -- Ken Tilton <KDqvh.25$wT1...@newsfe09.lga> 
+% 
+Fine, but anyone who uses Usenet knows that that is not how one says 
+"Thanks".  Which is why I felt safe moving directly to defcon 3, just 
+to see how big an *sshole we had on board.  His defcon 1 "Rot in hell 
+jackass" response merely, well, QED. 
+         -- Ken Tilton <enlgh.55$sr...@newsfe09.lga> 
+% 
+[...] the serious answer comes from the Tao Te Ching, lessee, on about 
+every other page: 
+        "A man on tiptoe cannot walk easily." 
+Or: 
+        "Never trying to impress, their being shines forth Never 
+        saying 'this is it', people see what the truth is -- Never 
+        boasting, they leave the space in which they can be valued ... 
+        And since they never argue, no one argues with them either." 
+Lao Tzu clearly would be no fun in a flame war. 
+        -- Ken Tilton <62l7h.3169$LN6....@newsfe11.lga> 
+% 
+"Gotcha" is like analogies, they lead to arguments about the 
+gotchaness of the gotcha, an exponential explosion guaranteed. 
+        -- Ken Tilton <PYndh.3014$E91....@newsfe12.lga> 
+% 
+Despite copious opinion to the contrary, I speak not as Grand Poobah 
+of Common Lisp and have not the power to marshall our forces to 
+maximize the benefit of their labor.  I can only pause between rides 
+to town on my pushbox to wonder aloud in camp why a serous chunk of 
+our tribe is over there under the tree working on the wheel and 
+axle -- ones no better than the one on my pushcart. 
+Kenzo: "Dudes, it's been twenty-five years, prices down at Throg's 
+Wheel & Axle aren't all that bad.  Why not work on a mast and sail?" 
+        -- Ken Tilton <NBYch.8$2...@newsfe10.lga> 
+% 
+A subtle execution of the tip of a tongue pressed against the upper 
+teeth with sprays of spittle coming out either side probably is not 
+what you had in mind. 
+Hmmm.  Then we change the spelling to Lithp, and never have to hear 
+that stupid joke again.  Our slogan can be "Thay it loud, thay it 
+proud."*, and we already have the frickin lambda. 
+Or "Out With Lithp!". 
+        -- Ken Tilton<Q8kdh.2982$E91.1...@newsfe12.lga> 
+% 
+Barker: "Stairway to Heaven!  Open to all!  Come on up!  One-day 
+amnesty!" 
+Kenny: "No elevator?" 
+        -- Ken Tilton <vXjdh.2980$E91.2...@newsfe12.lga> 
+% 
+No, I made a few changes and sent it to the Copyright Office. 
+For Mom I am holding out for the cover of Wired.  (She already takes 
+America's Most Wanted.) 
+        -- Ken Tilton <ctjch.30$Da7...@newsfe10.lga> 
+% 
+"you also physically incapable of understanding that your opinions are 
+not the words of God".  Nice comeback on originality!  Physical 
+understanding?  What part of the mind-body problem do you not 
+understand? 
+        -- Ken Tilton <_d8ch.956$7t3....@newsfe11.lga> 
+% 
+No, I would mock you for being so locked into mob-rule and aggression 
+that you think my insistence on walking to a different drummer entails 
+also abusing anyone not conforming to my non-conformity. 
+        -- Ken Tilton <IZ1bh.302$tv6....@newsfe09.lga> 
+% 
+"wet feet" might not do justice to the 3D learning curve -- that 
+subsonic rumble shaking your kayak is Niagara Falls. 
+        -- Ken Tilton <t8o8h.24$S%5...@newsfe08.lga> 
+% 
+"Feeling no pain, Kevin?" 
+"Sorry?" 
+"You just came out of the women's rest room." 
+"Look, I had to take a leak.  Odd, no urinals, just sit-downs." 
+> & no 'bouncers' made any approach.. 
+
+It's crowded, they are still working their way through the crowd. 
+Don't worry, we'll explain about the Lisp "high". 
+        -- Ken Tilton <UP38h.720$Md4....@newsfe08.lga> 
+% 
+er, um... no.  OO is about managing huge wadges of code in huge 
+systems that will be spending most of their lives waiting on disk I/O 
+so WTF cares about OO overhead, we need to manage these huge 
+codebases!!!  ie, OO is for lazy-ass mo-fos who cannot be bothered to 
+toss of a few dozen lines of code and reinvent "objects" in a fashion 
+screamingly optimized for their application. 
+        -- Ken Tilton <9PU4h.3489$z14.2...@newsfe08.lga> 
+% 
+So it samples the pitch and guesses at rhythm and provides tutoring 
+similar to what I would get from a good music teacher?  Astonishing. 
+AI has been solved!  Stop the presses on the emasculation of George 
+Bush, we have real news!!! 
+        -- Ken Tilton <RlU4h.971$xf6....@newsfe11.lga> 
+% 
+> if Clisp is so good where are the commonly used apps? 
+
+If George and Barbara had such great sex, how did they produce Jeb and 
+Dubbya? 
+        -- Ken Tilton <ML44h.30$qZ...@newsfe08.lga> 
+% 
+> I like the lizard. 
+
+No, you don't, you are just saying that.  Think again. 
+> But then, I like the Geico gecko, too. 
+
+Everybody likes the GG.  It has an australian accent. 
+> And I like Common Lisp, too.  Guess I'm weird, hunh?  ;-} 
+
+I was thinking "doomed". 
+        -- Ken Tilton <wpA2h.144$FD2...@newsfe11.lga> 
+% 
+And a mascot like Joe Camel to suck in the kiddies, gotta have a 
+mascot. 
+        - Ken Tilton <iHr2h.187$Pi3....@newsfe12.lga> 
+% 
+You yobs might want to ... oh, what's the use?  Lisp is dying.  The 
+next generation of Lispniks is over on #lisp worshipping themselves 
+and learning nothing and achieving less.  My god, another two years 
+and Slime may be half the power of the ACL IDE.  What is the word I am 
+looking for... ah, here it is: PFFFFFFFT! 
+        -- Ken Tilton <l1YZg.121$zi7....@newsfe09.lga> 
+% 
+You French really are pissed off about Lance Armstrong, aren't you? 
+    -- Ken Tilton  <86QUg.717$Og4....@newsfe12.lga> 
+% 
+* reminds me of part of a route description to a rock climb called 
+Death's Door: "Don't use the jug handle just to the right of the finger 
+jam, that hold is part of Cakewalk." 
+        -- Ken Tilton 
+% 
+I have worked with body shop programmers who could not be bothered to 
+write structured code.  Are the concepts of structured programming too 
+hard?  Nah, those people just "refused to be bothered" (a direct 
+quote), meaning they were too inured to the pain of spaghetti coding 
+to realize how much "bother" structured programming could save them. 
+They thought spaghetti code was /easier/ because, hey, how hard does 
+one have to think to add another GOTO?  It breaks somewhere else?  Add 
+another GOTO!  C'mon, this is easy!  Breaks somewhere else...read my 
+lips: GOTO! 
+        -- Ken Tilton 
+%

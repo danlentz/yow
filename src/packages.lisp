@@ -4,7 +4,7 @@
 ;;;;;    package goods
 ;;;;;
 ;;;;; Copyright 2009 Dan Lentz, Lentz Intergalactic Softworks
-;;;;; Yow!  Legally-imposed CULTURE-reduction is CABBAGE-BRAINED!
+;;;;; Thank god!!..  It's HENNY YOUNGMAN!!
 ;;;;;
 ;;;;; Updated:Dan Lentz 2009-Mar-21 16:11:59 EDT
 ;;;;; Created: Dan Lentz <dan@lentz.com> 2009-03-20
@@ -17,28 +17,23 @@
 
 (in-package :common-lisp-user)
 
-
-  (defpackage :yow
-  (:nicknames :cl-yow)
-  (:use :common-lisp :yow.system :iterate :lift)
-  (:export #:*all-yow-dbs* #:*default-db-files* #:load-default-dbs
+(defpackage :ebugs.yow
+  (:nicknames :yow :cl-yow)
+  (:use :common-lisp :yow.system :iterate)
+  (:export
+    #:*all-yow-dbs* #:*default-db-files*
+    #:load-textfile-db
     #:yow-db #:textfile-db #:populate
-    #:doc-op #:yow-relative-pathname
-    #:yow #:fortune #:limerick #:murphys-law #:trek #:spook #:zippy
+    #:load-default-dbs
+    #:yow-relative-pathname
+    #:yow #:fortune #:limerick #:murphys-law #:trek #:spook #:zippy #:tilton
     #:male-name #:female-name #:last-name
     #:full-name #:full-male-name #:full-female-name)
   (:documentation
     "YOW: Common lisp utilities to generate texty bogons
-
 YOW  is a small common-lisp implementation of the well known \"fortune cookie\"
 utility, named after the familiar EMACS implementation.  In addition, this
 package includes a small collection of cookie databases.
-
-This package was implemented with a goal of producing a simple, stand-alone
-prototype demonstration of various stylistic code and packaging concerns,
-such as system definition, code portability, regression testing,
-api, and test-result documentation. It does not necessarily attempt to
-implement the most efficient algorithmic solution.
 
 * Examples:
 
@@ -48,7 +43,26 @@ The following will produce a string containing a randomly chosen Last Name
 ;;; (yow :last-names)
 ;;; ;; => \"Smith\"
 
+* See Also:
+
+This Package Incorporates the Following Scaffolding and Component Frameworks.
+
+-  LIFT framework for interactive unit testing by Gary King.
+{http://common-lisp.net/project/lift/}
+-  CLDOC api documentation facility by Iban Hatchondo.
+{http://common-lisp.net/project/cldoc/}
+-  ASDF system definition framework by Daniel Barlow.
+{http://cliki.net/asdf/}
+-  CL-PPCRE
+-  ITERATE
+
 * Notes:
+
+This package was implemented with a goal of producing a simple, stand-alone
+prototype demonstration of various stylistic code and packaging concerns,
+such as system definition, code portability, regression testing,
+api, and test-result documentation. It does not necessarily attempt to
+implement the most efficient algorithmic solution.
 
 Names databases originate:
 - From Bob Baldwin's collection from MIT
@@ -71,24 +85,6 @@ Spook and Zippy the Pinhead databases arrived via GNU EMACS source distribution
 - NIL (MIT Common Lisp)'s debugger
 - something Bandy wrote at LLL-CRG.ARPA 
 - Henry's Zippy proxy (http://www.metahtml.com/apps/zippy/)
-
-
-* See Also:
-
-This Package Incorporates the Following Scaffolding and Component Frameworks.
-
--  LIFT framework for interactive unit testing by Gary King.
-{http://common-lisp.net/project/lift/}
-
--  CLDOC api documentation facility by Iban Hatchondo.
-{http://common-lisp.net/project/cldoc/}
-
--  ASDF system definition framework by Daniel Barlow.
-{http://cliki.net/asdf/}
-
--  CL-PPCRE
-
--  ITERATE
 
 "))
 
