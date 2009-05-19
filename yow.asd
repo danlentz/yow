@@ -33,7 +33,7 @@
 (defsystem :yow
   :name "#'yow (a.k.a. fortune) for common lisp"
   :version  #.(with-open-file
-                 (vers (merge-pathnames "version.lisp-expr" *load-truename*))
+                 (vers (merge-pathnames "version.lisp" *load-truename*))
                (read vers))
   ;"0.0.1"
   :maintainer "Dan Lentz <danlentz@gmail.com>"
