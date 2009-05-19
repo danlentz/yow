@@ -22,7 +22,7 @@
 
 (defpackage :yow.system
   (:use :cl :asdf)
-  (:export #:doc-op #:yow-relative-pathname))
+  (:export  #:yow-relative-pathname))
 
 (in-package :yow.system)
 
@@ -32,7 +32,10 @@
 
 (defsystem :yow
   :name "#'yow (a.k.a. fortune) for common lisp"
-  :version "0.0.1"
+  :version  #.(with-open-file
+                 (vers (merge-pathnames "version.lisp-expr" *load-truename*))
+               (read vers))
+  ;"0.0.1"
   :maintainer "Dan Lentz <danlentz@gmail.com>"
   :description "a common lisp facility for generating texty bogons"
   :author "Dan Lentz <danlentz@gmail.com>"
@@ -40,7 +43,7 @@
   :depends-on ( :iterate :cl-ppcre )
   :serial t :components
   ((:module "src" :serial t :components
-     ((:file "packages") (:file "yow") (:file "user-api")))))
+     ((:file "packages") (:file "slurp") (:file "yow") (:file "user-api")))))
 
 (defsystem :yow.test
   :name "yow test suite"
@@ -82,46 +85,6 @@
 (defmethod operation-done-p
   ((op asdf:test-op) (system (eql (find-system :yow))))
   nil)
-
-;;; Documentation 
-
-(defclass doc-op (asdf:operation) ())
-
-(defmethod perform ((op doc-op)
-                    (system (eql (find-system :yow))))
-  "Generate automated documentation for yow system.
-
-Lazily loads yow system and CLDOC framework as needed."
-  (asdf:operate 'asdf:load-op :yow)
-  (asdf:operate 'asdf:load-op :cldoc)
-
-  (makunbound cldoc:+DEFAULT-SECTION-NAMES+)
-  (defconstant cldoc:+DEFAULT-SECTION-NAMES+
-    (list "Overview:" "See Also:" "Examples:" "Notes:" "History:"
-      "Status:" "Affected By:" "Side Effects:" "Arguments and Values:"
-      "Exceptional Situations:" "Requirements:" "Specification:"))
-  
-  (defun cldoc::make-footer ()
-    "Appends locally specified footer to cldoc:html driven output"
-    (cldoc::with-tag (:div (:class "cludg-footer"))
-      (cldoc::html-write "Generated with ~A - ~A "
-        (lisp-implementation-type)
-        (cldoc::get-iso-date-time))))
-  
-  (cldoc:extract-documentation 'cldoc:html
-    (namestring (yow-relative-pathname #P";doc;html;"))
-    (asdf:find-system :yow) :table-of-contents-title "Yow! for Common-Lisp")
-
-    (cldoc:extract-documentation 'cldoc:text
-    (namestring (yow-relative-pathname #P";doc;text;"))
-    (asdf:find-system :yow))
-
-  )
-
-(defmethod operation-done-p
-  ((op doc-op) (system (eql (find-system :yow))))
-  nil)
-
 
 
 ;; Local Variables:
